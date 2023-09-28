@@ -3,7 +3,7 @@ public class Main {
         BonusService service = new BonusService();
 
         long expected = 30;
-        long actual = service.calculate(1000,true);
+        long actual = service.calculate(1000, true);
         System.out.println("1." + expected + " == ? == " + actual);
 
 
